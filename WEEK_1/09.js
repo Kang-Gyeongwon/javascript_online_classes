@@ -4,5 +4,5 @@ function printX() {
   console.log(x)
 }
 
-console.log(x)
+// console.log(x)  // ReferenceError: x is not defined 오류발생
 printX()
