@@ -35,6 +35,8 @@ let person = {
   gender: "male",
 };
 
-for(let key in person) {    // key => 위에 적힌 객체안에 key를 가리킴
-  console.log(`${key}: ${person[key]}`)
+// {person['key']: 객체의 value에 접근할 수 있는 또다른 방법
+for (let key in person) {
+  // key => 위에 적힌 객체안에 key를 가리킴
+  console.log(`${key}: ${person[key]}`);
 }
