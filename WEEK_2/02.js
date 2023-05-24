@@ -3,7 +3,7 @@
 // structuer = 구조
 // 배열이나, 객체의 속성을 분해해서 각각 떼어내서 그값을 변수에 담을 수 있게 해주는 문법
 
-// (1) qodufdml ruddn
+// (1) 배열인 경우
 // let [value1, value2] = [1, "new"];
 // console.log(value1);
 // console.log(value2);
