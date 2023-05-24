@@ -21,5 +21,5 @@ myMap.set("three", 3);
 // }
 
 // Map 의 크기와 존재여부 확인
-console.log(myMap.size); // map의 길이
-console.log(myMap.has("two"));
+console.log(myMap.size);   // map의 길이
+console.log(myMap.has("two"));  // key 기반 검색
