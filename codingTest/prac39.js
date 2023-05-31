@@ -12,7 +12,9 @@ my_string	      result
 "1a2b3c4d123"	  16
 */
 function solution(my_string) {
-  return my_string
+  let result = 0;
+  my_string
     .split("")
-    .map((idx) => (!isNaN(idx) ? (result += Number(idx)) : 0));
+    .map((idx) => (!isNaN(idx) ? (result += parseInt(idx)) : 0));
+  return result;
 }
