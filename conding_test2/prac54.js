@@ -15,3 +15,11 @@ arr	          divisor	return
 [2, 36, 1, 3]	1	      [1, 2, 3, 36]
 [3,2,6]	      10	    [-1]
 */
+function solution(arr, divisor) {
+  let result = arr
+    .filter((num) => {
+      return num % divisor === 0 ? num / divisor : 0;
+    })
+    .sort((a, b) => a - b);
+  return result.length === 0 ? [-1] : result;
+}
